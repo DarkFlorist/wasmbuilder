@@ -4,7 +4,7 @@
   "description": "Tool to build wasm programs by hand.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node test/basic.js"
   },
   "repository": {
     "type": "git",
@@ -18,12 +18,9 @@
   "author": "Jordi Baylina",
   "license": "GPL-3.0",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-plugin-mocha": "^5.3.0",
-    "eslint-plugin-webassembly": "^1.8.5",
-    "mocha": "^6.1.1"
+    "micro-should": "0.5.1"
   },
   "dependencies": {
-    "big-integer": "^1.6.43"
+    "big-integer": "1.6.43"
   }
 }
